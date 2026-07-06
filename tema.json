@@ -1,0 +1,248 @@
+{
+    "name": "Adventure Sales",
+    "dataColors": [
+        "#011638",
+        "#364156",
+        "#cdcdcd",
+        "#dff8eb",
+        "#214e34",
+        "#973131"
+    ],
+    "bad": "#973131",
+    "neutral": "#dff8eb",
+    "good": "#011638",
+    "visualStyles": {
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#214e34"
+                            }
+                        },
+                        "transparency": 80
+                    }
+                ],
+                "displayArea": [
+                    {
+                        "verticalAlignment": "Middle"
+                    }
+                ],
+                "outspace": [
+                    {
+                        "transparency": 0,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFF0"
+                            }
+                        }
+                    }
+                ],
+                "pageSize": [
+                    {
+                        "pageSizeTypes": "Custom",
+                        "pageSizeWidth": 1630,
+                        "pageSizeHeight": 734
+                    }
+                ]
+            }
+        },
+        "*": {
+            "*": {
+                "border": [
+                    {
+                        "show": true,
+                        "radius": 8
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": "#FFFFF0"
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "position": "Outside"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "labelColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineShow": false
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "labelColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineShow": false
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "",
+                        "labelColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 10,
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "defaultToCircle": false
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 10,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "alignment": "center"
+                        
+                    }]
+        }
+    },
+    "textbox": {
+        "*": {
+            "border": [
+                {
+                    "show": false
+                }
+            ],
+            "background": [
+                {
+                    "show": false
+                }
+            ],
+            "shadow": [
+                {
+                    "show": false
+                }
+            ]
+        }
+    },
+    "image": {
+        "*": {
+            "border": [
+                {
+                    "show": false
+                }
+            ],
+            "background": [
+                {
+                    "show": false
+                }
+            ],
+            "shadow": [
+                {
+                    "show": false
+                }
+            ]
+        }
+    },
+    "cardVisual": {
+        "*": {
+            "title": [
+                {
+                    "show": false
+                }
+            ],
+            "value": [
+                {
+                    "$id": "default",
+                    "fontColor": {
+                        "solid": {
+                            "color": "#000000"
+                        }
+                    },
+                    "horizontalAlignment": "center",
+                    "fontSize": 20,
+                    "fontFamily": "wf_standard-font, helvetica, arial, sans-serif",
+                    "verticalSpacing": 0
+                }
+            ],
+            "referenceLabelValue": [
+                {
+                    "$id": "default",
+                    "show": true,
+                    "valueFontSize": 12,
+                    "valueFontFamily": "Segoe UI",
+                    "valueFontColor": {
+                        "solid": {
+                            "color": "#000000"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "lineChart": {
+        "*": {
+            "lineStyles": [
+                {
+                    "strokeWidth": 2,
+                    "strokeColor": {
+                        "solid": {
+                            "color": "#0078D4"
+                        }
+                    },
+                    "lineChartType": "smooth",
+                    "lineStyle": "dashed",
+                    "showMarker": true,
+                    "areaShow": false,
+                    "markerSize": 5
+                }
+            ],
+            "markers": [
+                {
+                    "borderShow": true,
+                    "borderColor": {
+                        "solid": {
+                            "color": "#808080"
+                        }
+                    },
+                    "transparency": 0
+                }
+            ],
+            "categoryAxis": [
+                {
+                    "gridlineShow": true,
+                    "gridlineStyle": "dotted",
+                    "gridlineThickness": 1,
+                    "gridlineColor": {
+                        "solid": {
+                            "color": "#808080"
+                        }
+                    }
+                }
+            ],
+            "valueAxis": [
+                {
+                    "gridlineShow": true,
+                    "showAxisTitle": false,
+                    "show": false
+                }
+            ]
+        }
+    }
+}
+}
