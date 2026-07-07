@@ -1,7 +1,3 @@
-Aqui está uma versão atualizada e completa do seu **README**, incluindo os resultados do projeto e o comparativo visual entre o painel original e o refatorado:
-
----
-
 # Power BI - Adventure Works Sales Refactor
 
 Este repositório tem como **intuito o estudo e prática de Business Intelligence com Power BI**.  
@@ -73,6 +69,3 @@ Tema completo pode ser visto [aqui](https://github.com/Felisouza/adventureworks-
 - **Criação de novas medidas DAX** que ampliaram a visão sobre o desempenho anual, trimestral e mensal.  
 - **Análises geográficas e por categoria**, permitindo identificar regiões e produtos com maior impacto nas vendas.  
 - **Identificação dos campeões de venda**, trazendo visibilidade estratégica para o negócio.
-
----
-
